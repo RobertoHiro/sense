@@ -1,13 +1,14 @@
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
-        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="stylesheet" type="text/css" href="css/carousel.css">
         
         <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/backToTop.js"></script>
 
     </head>
     
@@ -67,12 +68,56 @@
         </nav>
         
         
-        <div >
+        <div id="Limpeza">
             
-            <div class="row justify-content-center">
+            <!-- Carousel -->
+            <div id="limpezaCarousel" class="carousel slide" data-bs-ride="carousel">
                 
-                <div class="col-md-3 col-0"></div>
+                <!-- Guia de navegação do carrosel -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#limpezaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#limpezaCarousel" data-bs-slide-to="1"></button>
+                </div>
+                
+                <!-- Itens do carrosel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item first active">
+                        <div class="container">
+                            <h3>Limpeza Alfa System</h3>
+                            <h1><span style="color: #44d6fe">Limpeza de</span> <span style="color: #063464"> Estofados</span></h1>
+                            <p>Our cleaning experts deliver the highest quality of clean you can always count, let us help you with all of your cleaning disinfecting responsibilities now.</p>
+                            <button class="btn btn-light fw-bold">Nossos Serviços</button>
+                            <img class="cleaningIcons" src="img/tissue.png">
+                            <img class="cleaningIcons" src="img/soap.png">
+                            <img class="cleaningIcons" src="img/cream.png">
+                        </div>
+                    </div>
+                    <div class="carousel-item second">
+                        <div class="container">
+                            <h3>Limpeza Alfa System</h3>
+                            <h1><span style="color: #44d6fe">Limpeza de</span> <span style="color: #063464"> Estofados</span></h1>
+                            <p>Our cleaning experts deliver the highest quality of clean you can always count, let us help you with all of your cleaning disinfecting responsibilities now.</p>
+                            <button class="btn btn-light fw-bold">Nossos Serviços</button>
+                            <img class="cleaningIcons" src="img/tissue.png">
+                            <img class="cleaningIcons" src="img/soap.png">
+                            <img class="cleaningIcons" src="img/cream.png">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- Botões de navegação de carrosel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#limpezaCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#limpezaCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+            
+            
             
         </div>
         
@@ -147,9 +192,12 @@
         </footer>
         
         <!-- btn voltar para top -->
-        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-            <i class="fas fa-arrow-up"></i>
+        <button type="button" class="btn btn-danger" id="btn-back-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
         </button>
         
     </body>
+    
+    
+    <script type="text/javascript" src="js/backToTop.js"></script>
 </html>

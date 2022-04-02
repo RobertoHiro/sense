@@ -1,0 +1,27 @@
+.carousel-item{
+    height: 35rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-item .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+    text-emphasis-color: red;
+}
+
+.carousel-inner .first{
+    background-image: url(../img/limpesaEstofado.png);
+}
+
+.carousel-inner .first .btn{
+    color: #063464;
+}
+
+.cleaningIcons{
+    margin-left: 2rem;
+}
