@@ -1,11 +1,11 @@
-.carousel-item{
+#limpezaCarousel .carousel-item{
     height: 35rem;
     background: #777;
     color: white;
     position: relative;
 }
 
-.carousel-item .container{
+#limpezaCarousel .carousel-item .container{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -14,10 +14,14 @@
     text-emphasis-color: red;
 }
 
-.carousel-inner .first{
+#limpezaCarousel .carousel-inner .first{
     background-image: url(../img/limpesaEstofado.png);
 }
 
-.carousel-inner .first .btn{
+#limpezaCarousel .carousel-inner .first .btn{
     color: #063464;
+}
+
+#tiposDeLimpezaCarousel .carousel-indicators{
+    margin-top: 1rem;
 }

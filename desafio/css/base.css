@@ -10,6 +10,7 @@
 
 footer{
     background-color: #032b56;
+    margin-top: 5rem;
 }
 
 ul {
@@ -17,16 +18,39 @@ ul {
 }
 
 #btn-back-to-top {
-position: fixed;
-bottom: 20px;
-right: 20px;
-display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
 }
 
 #saibaMaisLimpadoraAlfa{
-    height: 35rem;
+    margin: 5rem;
+}
+
+#tiposDeLimpeza{
+    margin-top: 5rem;
+    background-color: #063464;
+    padding: 5rem;
+    padding-bottom: 10rem;
 }
 
 #saibaMaisImg{
-    background-image: url(../img/saibaMais.png);
+    background-image: url(../img/saibaMais-focus.png);
+}
+
+#saibaMaisTxt{
+    background-image: url(../img/floating_icons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#tiposDeLimpezaText{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#tiposDeLimpezaCarousel{
+    
 }

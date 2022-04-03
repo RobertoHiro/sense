@@ -6,10 +6,28 @@
     background-size: cover;
 }
 #nossosServicos{
-        justify-content: space-between;
-    }
+    justify-content: space-between;
+}
+
+
+#saibaMaisImg{
+    background-image: url(../img/saibaMais-focus.png);
+    min-height: 300px;
+    margin-left: 0px;
+    
+}
+
 @media only screen and (min-width: 768px) {
-    #nossosServicos{
+    .nossosServicos{
         justify-content: flex-start ;
+    }
+    #saibaMaisImg{
+        background-image: url(../img/saibaMais-focus.png);
+        height: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #saibaMaisLimpadoraAlfa{
+        margin: 10px;
     }
 }
