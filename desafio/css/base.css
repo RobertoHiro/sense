@@ -23,3 +23,10 @@ right: 20px;
 display: none;
 }
 
+#saibaMaisLimpadoraAlfa{
+    height: 35rem;
+}
+
+#saibaMaisImg{
+    background-image: url(../img/saibaMais.png);
+}

@@ -4,8 +4,8 @@
         <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/base.css">
-        <link rel="stylesheet" type="text/css" href="css/media.css">
         <link rel="stylesheet" type="text/css" href="css/carousel.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
         
         <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -81,17 +81,20 @@
                 
                 <!-- Itens do carrosel -->
                 <div class="carousel-inner">
-                    <div class="carousel-item first active">
+                    <div class="carousel-item first active bk-img-responsive">
                         <div class="container">
                             <h3>Limpeza Alfa System</h3>
                             <h1><span style="color: #44d6fe">Limpeza de</span> <span style="color: #063464"> Estofados</span></h1>
                             <p>Our cleaning experts deliver the highest quality of clean you can always count, let us help you with all of your cleaning disinfecting responsibilities now.</p>
-                            <button class="btn btn-light fw-bold">Nossos Serviços</button>
-                            <img class="cleaningIcons" src="img/tissue.png">
-                            <img class="cleaningIcons" src="img/soap.png">
-                            <img class="cleaningIcons" src="img/cream.png">
+                            <div class="row" id="nossosServicos">
+                                <button class="btn btn-light fw-bold col-md-auto col-12">Nossos Serviços</button>
+                                <img class="col-md-auto col-2" src="img/tissue-white.png">
+                                <img class="col-md-auto col-2" src="img/soap-white.png">
+                                <img class="col-md-auto col-2" src="img/cream-white.png">
+                            </div>
                         </div>
                     </div>
+                    <!--
                     <div class="carousel-item second">
                         <div class="container">
                             <h3>Limpeza Alfa System</h3>
@@ -103,6 +106,7 @@
                             <img class="cleaningIcons" src="img/cream.png">
                         </div>
                     </div>
+-->
                 </div>
                 
                 
@@ -117,8 +121,7 @@
                 </button>
             </div>
             
-            
-            
+
         </div>
         
         <!-- rodapé-->
