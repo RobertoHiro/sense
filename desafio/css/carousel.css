@@ -19,3 +19,22 @@
 #limpezaCarousel .carousel-inner .first .btn{
     color: #063464;
 }
+
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item.active,
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item-start,
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item-next,
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item{
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+
+#tiposDeLimpezaCarousel .carousel-inner .carousel-item div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
