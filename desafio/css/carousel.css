@@ -1,8 +1,6 @@
 #limpezaCarousel .carousel-item{
     height: 35rem;
-    background: #777;
     color: white;
-    position: relative;
 }
 
 #limpezaCarousel .carousel-item .container{
@@ -20,8 +18,4 @@
 
 #limpezaCarousel .carousel-inner .first .btn{
     color: #063464;
-}
-
-#tiposDeLimpezaCarousel .carousel-indicators{
-    margin-top: 1rem;
 }
