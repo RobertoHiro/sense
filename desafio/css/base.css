@@ -6,11 +6,26 @@
 #solucao{
     margin-top: -5rem;
     color: white;
-    padding: 2rem;
 }
 
 #solucao div{
     padding: 2rem;
+}
+
+#orcamento{
+    background-color: aqua;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+#inputField{
+    background-color: white;
+    padding: 2rem;
+}
+
+#inputField div label{
+    color: blue;
+    font-weight: bold;
 }
 
 #before_navbar{
@@ -57,4 +72,16 @@ ul {
 #tiposDeLimpezaText{
     margin-bottom: 2rem;
     color: white;
+}
+
+#nossosServicos{
+    justify-content: space-between;
+}
+
+
+#saibaMaisImg{
+    background-image: url(../img/saibaMais-focus.png);
+    min-height: 300px;
+    margin-left: 0px;
+    
 }
