@@ -3,6 +3,15 @@
     font-weight: bold;
 }
 
+#solucao{
+    margin-top: -5rem;
+    color: white;
+    padding: 2rem;
+}
+
+#solucao div{
+    padding: 2rem;
+}
 
 #before_navbar{
     background-color: #063464;
@@ -32,7 +41,6 @@ ul {
     margin-top: 5rem;
     background-color: #063464;
     padding: 5rem;
-    padding-bottom: 10rem;
 }
 
 #saibaMaisImg{
