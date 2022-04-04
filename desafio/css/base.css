@@ -3,8 +3,12 @@
     font-weight: bold;
 }
 
-.navbar .nav-link{
-    
+.navbar{
+    overflow: auto;
+}
+
+#navMenu a{
+    font-size: 1.2vw;
 }
 
 #solucao{
@@ -17,7 +21,7 @@
 }
 
 #orcamento{
-    background-color: aqua;
+    background-color: #49d4fb;
     padding: 3rem;
     margin-top: 2rem;
 }
@@ -28,12 +32,17 @@
 }
 
 #inputField div label{
-    color: blue;
+    color: #1e4873;
     font-weight: bold;
 }
 
 #before_navbar{
     background-color: #063464;
+}
+
+#before_navbar span{
+    font-size: 1vw;
+    color: #9aaabb;
 }
 
 footer{
@@ -88,4 +97,8 @@ ul {
     min-height: 300px;
     margin-left: 0px;
     
+}
+
+#ourProduct{
+    border: 2px solid white;
 }

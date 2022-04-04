@@ -11,9 +11,12 @@
         justify-content: flex-start ;
     }
     #saibaMaisImg{
-        background-image: url(../img/saibaMais-focus.png);
-        height: auto;
+        background-image: url(../img/saibaMais-focus-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }  
+    
 }
 @media only screen and (max-width: 767px) {
     #saibaMaisLimpadoraAlfa{
@@ -28,5 +31,10 @@
     
     #tiposDeLimpezaCarousel .carousel-inner .carousel-item div{
         width: 100%;
+    }
+    
+    #ourProduct{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

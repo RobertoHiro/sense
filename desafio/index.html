@@ -1,7 +1,7 @@
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
-        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/base.css">
         <link rel="stylesheet" type="text/css" href="css/carousel.css">
@@ -18,31 +18,31 @@
         <div class="conteiner p-3" id="before_navbar">
             <div class="row justify-content-end"> 
                 <div class="col-md-auto col-12">
-                    <span class="text-white fw-bold">Horário de funcionamento: Seg-Sex 7am - 5pm</span>
+                    <span class="fw-bold"><i class="fa fa-clock"></i>Horário de funcionamento: Seg-Sex 7am - 5pm</span>
                 </div>
                 <div class="col-md-auto col-12">
-                    <span class="text-white fw-bold">Email: contato@alfasystem.com</span>
+                    <span class="fw-bold">Email: contato@alfasystem.com</span>
                 </div>
             </div>
         </div>
         
         <!-- navbar-->
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md navbar-light justify-content-start">
 
-            <div class="order-0 container-fluid me-0">
+            <div class="order-0 container-fluid">
                 <img class="navbar-brand" src="img/limpadoraalfasystem.png">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
 
-            <div class="navbar-collapse collapse dual-collapse2 w-100 nav_center_text">
-                <ul class="navbar-nav">
+            <div class="navbar-collapse collapse dual-collapse2 nav_center_text">
+                <ul class="navbar-nav" id="navMenu">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Home</a>
+                        <a class="nav-link w-100" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem Somos</a>
+                        <a class="nav-link w-100" href="#">Quem Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Serviço</a>
@@ -55,7 +55,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-collapse collapse dual-collapse2 w-100 nav_center_text">
+            <div class="navbar-collapse collapse dual-collapse2 w-100 nav_center_text ms-auto">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">(19) 97403-0523</a>
@@ -66,7 +66,6 @@
                 </ul>
             </div>
         </nav>
-        
         
         <div id="Limpeza">
             
@@ -165,7 +164,7 @@
     <div class="carousel-item active">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/cream.png">
+          <img class="img-fluid" src="img/tipoLimpezaItem1.png">
             <p class="mt-auto">Limpeza de Telhados</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
@@ -174,7 +173,7 @@
     <div class="carousel-item">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/limpadoraalfasystem.png">
+          <img class="img-fluid" src="img/tipoLimpezaItem2.png">
             <p class="mt-auto">Limpeza de Pedras</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
@@ -183,7 +182,7 @@
     <div class="carousel-item">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/limpesaEstofado.png">
+          <img class="img-fluid" src="img/tipoLimpezaItem3.png">
             <p class="mt-auto">Limpeza de Estofados</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
@@ -192,7 +191,7 @@
     <div class="carousel-item">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/saibaMais-focus.png">
+          <img class="img-fluid" src="img/tipoLimpezaItem1.png">
             <p class="mt-auto">Limpeza de Telhados</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
@@ -201,8 +200,8 @@
     <div class="carousel-item">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/saibaMais.png">
-            <p class="mt-auto">Limpeza de Telhados</p>
+          <img class="img-fluid" src="img/tipoLimpezaItem2.png">
+            <p class="mt-auto">Limpeza de Pedras</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
@@ -210,8 +209,8 @@
     <div class="carousel-item">
       <div class="col-md-4">
         <div class="card card-body">
-          <img class="img-fluid" src="img/soap.png">
-            <p class="mt-auto">Limpeza de Telhados</p>
+          <img class="img-fluid" src="img/tipoLimpezaItem3.png">
+            <p class="mt-auto">Limpeza de Estofados</p>
             <button class="btn btn-primary">Saiba Mais <i class="fa fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
@@ -246,19 +245,20 @@
             <!-- soluções -->
             <div class="container">
                 <div class="row justify-content-around" id="solucao">
-                    <div class="col-md-5 col-12" style="background-color: blue">
+                    <div class="col-md-5 col-12" style="background-color: #024890">
                         <h2>Soluções em Limpeza de Telhados</h2>
                         <p>The processes and system we put in place provide high quality service with a focus on safety. All our employees are trained and certified in the most current pandemic.</p>
-                        <button class="btn btn-primary">Solicitar Orçamento <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn btn-primary" style="background-color: #063464">Solicitar Orçamento <i class="fa fa-arrow-right"></i></button>
                     </div>
-                    <div class="col-md-5 col-12" style="background-color: blue">
+                    <div class="col-md-5 col-12" style="background-color: #44d6fe">
                         <h2>Soluções em Limpeza de Pedra</h2>
                         <p>We are deploying the best disinfectants and precedures to keep individuals safe in offices, schools, retail locations, healthcare settings, senior living facilities, and more.</p>
-                        <button class="btn btn-primary"><i class="fa fa-arrow-right"></i> Solicitar Orçamento</button>
+                        <button class="btn btn-primary" style="background-color: #063464"><i class="fa fa-arrow-right"></i> Solicitar Orçamento</button>
                     </div>
 
                 </div>
             </div>  
+            
             <!-- Solicitar Orçamento -->
             <div class="row justify-content-between" id="orcamento">
                 <div class="col-md-6 col-12" id="inputField">
@@ -289,34 +289,51 @@
                             <label>Menssagem:</label>
                             <textarea name="mensagem" rows="5" class="w-100"></textarea>
                         </div>
+                        <button class="btn btn-primary  w-100 mt-1" style="background-color: #063464">Solicitar Orçamento</button>
+                        
                     
                     </div>
                 </div>
                 <div class="col-md-5 col-12" id="moreInfo">
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <h2>Your Clients & Emploees Deserve A Clean, Safe and Healthy Environment!!</h2>
                         <p>We continuously inves in improving our processes, our employees and our relaionship with each and every business we serve.</p>
-                        <button class="btn btn-light col-md-6 col-12">Explore More <i class="fa fa-arrow-right"></i></button>
-                        <button class="btn btn-blue col-md-6 col-12">Our Products <i class="fa fa-arrow-right"></i></button>
-                        <div class="col-md-4 col-12">
-                            <img src="img/cream-white.png">
-                            <p>Environmentai Sensitivity</p>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <img src="img/cream-white.png">
-                            <p>Personalised Solutions</p>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <img src="img/cream-white.png">
-                            <p>Performance Measures</p>
+                        <button class="btn btn-light col-md-5 col-12">Explore More <i class="fa fa-arrow-right"></i></button>
+                        <button class="btn btn-blue col-md-5 col-12" id="ourProduct">Our Products <i class="fa fa-arrow-right"></i></button>
+                        <div class="row" style="margin-top: 10px">
+                            <div class="col-md-4 col-12">
+                                <img src="img/brush.png">
+                                <p>Environmentai Sensitivity</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <img src="img/foot.png">
+                                <p>Personalised Solutions</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <img src="img/sanitizer.png">
+                                <p>Performance Measures</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
             </div>
-        </div>
             
-        
+            <!-- duvidas -->
+            <div class="row justify-content-around" style="margin-top: 10px;">
+                <div class="col-md-5 col-12">
+                    <p style="font-weight: bold"><span style="color: #8e949e">Tem mais alguma dúvida? Ligue:</span> <span style="color: #063464">(19) 01061245741</span></p>
+                </div>
+                <div class="col-md-5 col-12 row justify-content-center gy-2">
+                    <img class="col-md-3 col-8" src="img/wolves.png">
+                    <img class="col-md-3 col-8" src="img/brand.png">
+                    <img class="col-md-3 col-8" src="img/acrevis.png">
+                </div>
+            </div>
+            
+            
+        </div>
+    
         <!-- rodapé-->
         <footer class="text-center text-white">
             <div class="container-fluid p-2">
